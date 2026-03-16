@@ -1,5 +1,5 @@
 import React from 'react'
-import "./OurMission.css"
+import "./Ourmission.css"
 import { motion } from "framer-motion";
 
 const OurMission = () => {

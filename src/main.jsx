@@ -11,3 +11,14 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   </StrictMode>
 );
 
+window.addEventListener('unhandledrejection', (event) => {
+  if (event.reason?.message?.includes('message port closed')) {
+    event.preventDefault();
+  }
+});
+
+const originalError = console.error;
+console.error = (...args) => {
+  if (args[0]?.includes?.('message port closed')) return;
+  originalError(...args);
+};

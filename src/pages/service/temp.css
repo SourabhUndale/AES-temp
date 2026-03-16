@@ -1,0 +1,88 @@
+  /* second section  */
+  .icon-circle {
+            width: 50px;
+            height: 50px;
+            background-color: #1b5e20;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 20px;
+          }
+
+          .card {
+            border-radius: 12px;
+          }
+
+          .card:hover {
+            transform: translateY(-5px);
+            transition: 0.3s ease;
+          }
+
+/* third section */
+.product-card {
+            border-radius: 14px;
+            transition: all 0.3s ease;
+          }
+
+          .product-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+          }
+
+          .badge {
+            font-size: 14px;
+          }
+
+/* fourth section  */
+
+.section-title {
+          font-size: 36px;
+        }
+
+        .register-tabs li {
+          font-size: 16px;
+          color: #999;
+          margin-bottom: 15px;
+          cursor: pointer;
+          transition: 0.3s ease;
+        }
+
+        .register-tabs li.active-tab {
+          color: var(--primary-color);
+          font-weight: 600;
+        }
+
+        .register-tabs li:hover {
+          color: var(--primary-color);
+        }
+
+        .custom-accordion .accordion-item {
+          border: none;
+          border-bottom: 1px solid #eee;
+        }
+
+        .custom-accordion .accordion-button {
+          background-color: #f8f9fa;
+          font-weight: 500;
+          border-radius: 10px;
+          margin-bottom: 10px;
+          box-shadow: none;
+        }
+
+        .custom-accordion .accordion-button:not(.collapsed) {
+          background-color: rgba(68,87,147,0.1);
+          color: var(--primary-color);
+        }
+
+        .accordion-body {
+          background: #fff;
+          border-radius: 10px;
+        }
+
+        .step-number {
+          font-weight: 700;
+          margin-right: 15px;
+          color: var(--primary-color);
+        }

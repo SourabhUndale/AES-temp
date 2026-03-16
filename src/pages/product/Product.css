@@ -1,0 +1,118 @@
+
+
+.tech-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+/* Left Image */
+.tech-image {
+  flex: 1;
+}
+
+.tech-image img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Right Content */
+.tech-content {
+  flex: 1;
+}
+
+.tech-label {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #6b6b6b;
+  font-weight: 600;
+}
+
+.tech-title {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 15px 0;
+  line-height: 1.3;
+  color: #111;
+}
+
+.tech-title span {
+  color: rgb(68 87 147); /* red color for "future" */
+}
+
+.tech-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+.tech-btn {
+  padding: 12px 24px;
+  background-color: #445793;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.tech-btn:hover {
+  background-color: #c9bdb2;
+  transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .tech-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .tech-description {
+    margin: 0 auto 30px;
+  }
+}
+
+.tech-wrapper {
+  padding: 120px 0;
+  position: relative;
+}
+
+.tech-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.tech-wrapper.reverse .tech-container {
+  flex-direction: row-reverse;
+}
+
+/* Zigzag Parent */
+.zigzag-section {
+  position: relative;
+}
+
+/* SVG lines */
+.zigzag-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}

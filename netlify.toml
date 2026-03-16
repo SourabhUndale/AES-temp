@@ -1,0 +1,32 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+```
+
+---
+
+**Fix 2: Check your Netlify deploy settings**
+
+Go to **Netlify Dashboard → Your Site → Site Configuration → Build & Deploy** and make sure:
+
+| Setting | Value |
+|---|---|
+| Build command | `npm run build` |
+| Publish directory | `dist` |
+| Base directory | `frontend` (if your code is in a subfolder) |
+
+---
+
+**Fix 3: If your repo has a subfolder structure**
+
+If your project looks like:
+```
+repo/
+  frontend/      ← your React app is here
+    package.json
+    src/

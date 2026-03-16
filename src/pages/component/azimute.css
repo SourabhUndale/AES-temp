@@ -1,0 +1,127 @@
+/* CTA Section */
+
+.cta-section-nft{
+background: linear-gradient(235deg, #163a6b, #374c8a);
+border-radius:20px;
+padding:30px 20px;
+margin: 0rem 8rem;
+color:white;
+}
+
+.cta-title-nft{
+font-size:28px;
+font-weight:600;
+margin-bottom:10px;
+}
+
+.cta-text-nft{
+opacity:0.9;
+margin-bottom:25px;
+}
+
+.cta-btn-nft{
+background:white;
+color:#161616;
+border:none;
+padding:10px 25px;
+border-radius:30px;
+font-weight:500;
+transition:0.3s;
+}
+
+.cta-btn-nft:hover{
+background:#f3f3f3;
+}
+
+
+
+/* Footer */
+
+.footer-box-nft{
+background:white;
+border-radius:20px;
+padding:45px;
+margin-top:25px;
+}
+
+.footer-logo-nft{
+font-size:22px;
+font-weight:700;
+color:#374c8a;
+}
+
+.footer-desc-nft{
+font-size:14px;
+color:#777;
+}
+
+.footer-title-nft{
+font-weight:600;
+margin-bottom:15px;
+}
+
+.footer-links-nft{
+list-style:none;
+padding:0;
+}
+
+.footer-links-nft li{
+margin-bottom:8px;
+}
+
+.footer-links-nft a{
+text-decoration:none;
+color:#6c757d;
+font-size:14px;
+}
+
+.footer-links-nft a:hover{
+color:#000;
+}
+
+.contact-item-nft{
+font-size:14px;
+color:#6c757d;
+margin-bottom:8px;
+}
+
+.social-icons-nft a{
+margin-right:12px;
+font-size:14px;
+color:#444;
+text-decoration:none;
+}
+
+.footer-bottom-nft{
+border-top:1px solid #eee;
+margin-top:30px;
+padding-top:15px;
+font-size:13px;
+color:#888;
+}
+
+.footer-policy-nft a{
+margin-left:15px;
+color:#888;
+text-decoration:none;
+}
+
+.footer-policy-nft a:hover{
+color:#000;
+}
+
+
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.cta-title-nft{
+font-size:22px;
+}
+
+.footer-box-nft{
+padding:30px 20px;
+}
+
+}

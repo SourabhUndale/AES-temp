@@ -1,0 +1,46 @@
+
+/* Stats */
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #111;
+}
+
+.stat-text {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Main Heading */
+.main-heading {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #111;
+}
+
+/* Sub headings */
+.sub-heading {
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #444;
+}
+
+.description {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 2rem;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+}
